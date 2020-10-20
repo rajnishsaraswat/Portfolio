@@ -18,9 +18,10 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Projects & Experiences</a></li>
-							<li><a href="#two">Skills</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#one">Projects</a></li>
+							<li><a href="#two">Experiences</a></li>
+							<li><a href="#three">Skills</a></li>
+							<li><a href="#four">Get in touch</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -42,35 +43,57 @@
 						</div>
 					</section>
 
-				<!-- Projects & Experiences -->
+				<!-- Projects -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a class="image"><img src="images/verzeo.jpg" alt="" data-position="center center" /></a>
+							<a class="image"><img src="images/NLP.jpeg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Intern at Verzeo</h2>
-									<h3>April 2020 - May 2020</h3>
+									<h2>Yelp Text-to-rating Converter using NLP</h2>
+									<h3>August 2020</h3>
 									<p><ul>
-										<li>Designed a Contract using the Block chain principles for a Lucky Draw Contest in Solidity language.</li>
-										<li>A fixed amount of Ethereum was deposited in the Contract as Entry Fee in which Multiple Users (including owner) were allowed to participate.</li>
-										<li>Keccak256 hash function was used to generate Random Ticket Number, User Id, and for picking the winner.</li>
-										<li>Full transparency and reliability of the Contest was maintained while building the Smart Contract.</li>
+										<li>Predicted star-rating for businesses based on the text review given by users.</li>
+										<li>Processed text by filtering words using bag-of-words and applying Count-vectorizing classifier.</li>
+										<li>Converted these words into features using Tf-idf and structured with the help of pipeline.</li>
+										<li>Applied Multinomial Naive Bayes algorithm to train the data set and achieved an accuracy of 92%.</li>
 									</ul></p>
+									<ul class="actions">
+										<li><a href="https://github.com/rajnishsaraswat/Yelp-Text-to-rating-converter" class="button">Learn more</a></li>
+									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a class="image"><img src="images/gomyno.jpg" alt="" data-position="top center" /></a>
+							<a class="image"><img src="images/DNN.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Go-Myno Head, Indian Institute of Technology Goa</h2>
-									<h3>August 2019 - September 2019</h3>
+									<h2>Handwritten digit recognition using Deep Neural Network (implemented using Tensor flow)</h2>
+									<h3>August 2020</h3>
 									<p><ul>
-										<li>Headed the Coding club of IIT Goa, led the organising team for Coding activities during college fest.</li>
-										<li>Collaborated with other Technical & Non-Technical clubs for organizing workshops/seminars.</li>
-										<li>Supervised seminars on various topics like BIOS settings, IoT, Blockchains, File Compression(Zipping), etc.</li>
-										<li>Launched GoC(Game of Codes) in a well-defined and formulated manner to inculcate competitive coding culture within college.</li>
+										<li>Developed a model to recognize hand-written digit on MNIST data set.</li>
+										<li>Data set comprises of 55000 training images and 10000 test images each of dimension 784(28*28).</li>
+										<li>Pre-processed data using standard scalar, used DNNClassifier with 3 hidden units and 10 output classes (one-hot encoded 0-9).</li>
+										<li>Data was supplied in batch size of 100 and achieved an accuracy of 97%.</li>
 									</ul></p>
+									<ul class="actions">
+										<li><a href="https://github.com/rajnishsaraswat/Handwritten-digit-recognition" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a class="image"><img src="images/Recommender.jpeg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Recommender system for Movies</h2>
+									<h3>August 2020</h3>
+									<p><ul>
+										<li>Recommended movies on MovieLens Data set.</li>
+										<li>Used correlation between two movies based on users’ ratings.</li>
+									</ul></p>
+									<ul class="actions">
+										<li><a href="https://github.com/rajnishsaraswat/Recommender-system-for-movies" class="button">Learn more</a></li>
+									</ul>
 								</div>
 							</div>
 						</section>
@@ -81,7 +104,7 @@
 									<h2>Data Science and Machine Learning Project</h2>
 									<h3>August 2020</h3>
 									<p><ul>
-										<li>Worked on some of the real world Data sets to learn and implemented different Machine Learning Algorithms.</li>
+										<li>Trained Machine Learning Models for Fake note detection, Cancer detection, flower detection from petal dimensions, house price prediction.</li>
 										<li>Programmed in Python with Jupyter Notebook using Numpy and Pandas for data framing and modelling.</li>
 										<li>Data was visualised and analysed by means of various plots using Seaborn and Matplotlib libraries.</li>
 										<li>Tensorflow, Scikit were used to implement Models, big data sets were assembled using Hadoop.</li>
@@ -146,9 +169,43 @@
 							</div>
 						</section>
 					</section>
+			
+			<!-- Experiences -->
+				<section id="two" class="wrapper style2 spotlights">
+					<section>
+						<a class="image"><img src="images/verzeo.jpg" alt="" data-position="center center" /></a>
+						<div class="content">
+							<div class="inner">
+								<h2>Intern at Verzeo</h2>
+								<h3>April 2020 - May 2020</h3>
+								<p><ul>
+									<li>Designed a Contract using the Block chain principles for a Lucky Draw Contest in Solidity language.</li>
+									<li>A fixed amount of Ethereum was deposited in the Contract as Entry Fee in which Multiple Users (including owner) were allowed to participate.</li>
+									<li>Keccak256 hash function was used to generate Random Ticket Number, User Id, and for picking the winner.</li>
+									<li>Full transparency and reliability of the Contest was maintained while building the Smart Contract.</li>
+								</ul></p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<a class="image"><img src="images/gomyno.jpg" alt="" data-position="top center" /></a>
+						<div class="content">
+							<div class="inner">
+								<h2>Go-Myno Head, Indian Institute of Technology Goa</h2>
+								<h3>August 2019 - September 2019</h3>
+								<p><ul>
+									<li>Headed the Coding club of IIT Goa, led the organising team for Coding activities during college fest.</li>
+									<li>Collaborated with other Technical & Non-Technical clubs for organizing workshops/seminars.</li>
+									<li>Supervised seminars on various topics like BIOS settings, IoT, Blockchains, File Compression(Zipping), etc.</li>
+									<li>Launched GoC(Game of Codes) in a well-defined and formulated manner to inculcate competitive coding culture within college.</li>
+								</ul></p>
+							</div>
+						</div>
+					</section>
+				</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+				<!-- Skills -->
+					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Skills</h2>
 							<div class="features">
@@ -185,8 +242,8 @@
 							</div>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+				<!-- Contact -->
+					<section id="four" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<div class="split style1">
